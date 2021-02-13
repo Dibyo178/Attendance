@@ -1,0 +1,50 @@
+.sidenav {
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 2px 15px lightgray; 
+    overflow-x: hidden;
+    padding-top: 50px;
+  }
+  
+  .sidenav .menu-link {
+    /* padding: 6px 8px 6px 26px;  */
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    margin-bottom:3rem;
+  }
+  
+  /* .sidenav .menu-link:hover {
+    background-color: #0d6abb;
+  }
+   */
+  .dash{
+    font-size: 10px;
+  }
+  .sidenav .menu-link{
+ margin-bottom: 35%;
+  }
+
+  #dashboard:hover{
+    color: green;
+    
+  }
+  #dashboard:hover{
+    background-image: green;
+  }
+  .main-nav:hover{
+     color: green !important;
+  }
+  #person.MuiSvgIcon-root{
+    font-size: 1.5rem;
+    width: 1em;
+    height: 1em;
+    margin-bottom: 70%;
+  }
