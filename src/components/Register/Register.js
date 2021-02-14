@@ -26,7 +26,7 @@ const Register = () => {
 
         const studentDetails = { ...loggedInUser, registrationDate: data.date, desicription: data.desicription }
 
-        fetch('http://localhost:5000/addRegister', {
+        fetch('https://enigmatic-everglades-62046.herokuapp.com/addRegister', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

@@ -8,14 +8,14 @@ const AllRegVolunteer = () => {
 
     useEffect(() => {
 
-        fetch('http://localhost:5000/allVolunteer')
+        fetch('https://enigmatic-everglades-62046.herokuapp.com/allVolunteer')
             .then(response => response.json())
             .then(data => setRegister(data))
     }, [register])
 
 
     const markEvent = (id) => {
-        fetch(`http://localhost:5000/mark/${id}`, {
+        fetch(`https://enigmatic-everglades-62046.herokuapp.com/mark/${id}`, {
             method: 'DELETE'
         })
             .then(response => response.json())
